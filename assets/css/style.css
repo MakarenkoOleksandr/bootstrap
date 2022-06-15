@@ -6613,10 +6613,6 @@ body {
   padding: 0;
 }
 
-.header {
-  min-height: 100vh;
-}
-
 .aside,
 .footer {
   text-align: center;
@@ -10413,6 +10409,9 @@ body {
   }
   .fs-4 {
     font-size: 1.5rem !important;
+  }
+  .header {
+    min-height: 100vh;
   }
 }
 
