@@ -11,42 +11,38 @@
 
 <body>
 
-
-
   <div class="row">
-
-    <header class="header mb-5 container-fluid">
-
+    <header class="header mb-5 me-0 container-fluid">
       <div class="col">
+        <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container">
-
-            <a class="navbar-brand" href="#">
-              <img class="mx-0 mt-0 mb-0" src="assets/img/navbar-logo.svg" alt="logo" width="150px" height="50px"
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand ms-0 my-auto" href="#">
+              <img src="assets/img/navbar-logo.svg" alt="logo" width="150px" height="50px"
                 class="d-inline-block align-text-top">
             </a>
-
-            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler me-0" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-5 align-items-center">
+
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
+
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
                 </li>
+
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     Products
                   </a>
-
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Product1</a></li>
                     <li>
@@ -59,12 +55,31 @@
                     <li><a class="dropdown-item" href="#">Product3</a></li>
                   </ul>
                 </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Contacts
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Mobile</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Mail</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Social</a></li>
+                  </ul>
+                </li>
+                <button type="button" class="btn btn-outline-danger text-bg-dark" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">
+                  Register
+                </button>
               </ul>
 
-              <button type="button" class="btn btn-outline-danger text-bg-dark" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">
-                Register
-              </button>
 
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -118,8 +133,8 @@
                 </div>
               </div>
             </div>
-        </nav>
-
+          </nav>
+        </div>
         <div id="carouselExampleInterval" class="carousel" data-bs-ride="carousel">
           <div class="carousel-inner">
 
@@ -162,12 +177,12 @@
     </header>
   </div>
 
-  <div class="row me-3 ms-3">
+  <div class="row container-fluid">
 
     <main class="col-xl-8 col-md-10 col-xs-12 main">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
 
-      <div class="accordion text-bg-dark" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item text-bg-dark">
+        <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
             <button class="accordion-button text-bg-dark" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
@@ -177,7 +192,7 @@
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
             aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
+            <div class="accordion-body text-bg-dark">
               <strong>HyperX Alloy Origins™ 60 — надежная, чрезвычайно компактная клавиатура (всего 60% от
                 стандартного форм-фактора), освобождающая дополнительное место для размашистых движений мышью. Она
                 отличается прочным, полностью изготовленным из алюминия корпусом и надежными переключателями HyperX,
@@ -214,7 +229,6 @@
                 управления прямо на чашках наушников гарнитура Cloud Flight станет удобным и важным дополнением к
                 игре
                 на PlayStation®5 и PlayStation®4.</strong>
-
             </div>
           </div>
         </div>
@@ -238,13 +252,11 @@
                 о
                 пропусках. Гибкий кабель HyperFlex USB и глайды из PTFE материала обеспечивают плавное, легкое
                 скольжение. С этой мышью достичь превосходства в игре будет проще. </strong>
-
             </div>
           </div>
         </div>
       </div>
     </main>
-
 
     <aside class="col-xl-2 col-md-2 order-first aside container">Left</aside>
     <aside class="col-xl-2 col-md-12 aside container">Right</aside>
@@ -253,7 +265,7 @@
 
 
   <div class="row">
-    <header class="footer col">Footer</header>
+    <footer class="footer col container">Footer</footer>
   </div>
 
 
