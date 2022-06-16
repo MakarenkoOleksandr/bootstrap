@@ -1,32 +1,36 @@
 body {
-    overflow-x: hidden;
-    background-color: #212529;
-    margin: 0;
-    padding: 0;
+  overflow-x: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: #212529;
 }
 
 .header {
-    @media (min-width: 1200px) {
-        min-height: 100vh;
-    }
+  @media (min-width: 1200px) {
+    min-height: 100vh;
+  }
 }
 
 .aside,
 .footer {
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    background-color: #212529;
+  text-align: center;
+
+  color: white;
+  background-color: #212529;
+
+  font-size: 40px;
 }
 
 .dropdown-menu {
-    background-color: #212529;
+  background-color: #212529;
 }
 
 .dropdown-item {
-    color: white;
+  color: white;
 }
 
 .container-fluid {
-    margin: 0 auto;
+  margin: 0 auto;
 }
